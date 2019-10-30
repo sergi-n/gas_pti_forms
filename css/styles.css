@@ -1,0 +1,166 @@
+@media print {
+    .page_break {
+        page-break-before: always;
+    }
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/bpg_arial_2009.ttf');
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial';
+}
+
+table {
+    border-spacing: 0;
+    padding: 0;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid black;
+}
+
+.pti_application {
+    margin: auto;
+    width: 800px;
+}
+
+
+/* PTI center info */
+
+.pti_center_info_table {
+    margin: 20px auto;
+}
+
+.pti_center_logo {
+    padding-right: 20px;
+    vertical-align: center;
+}
+
+.pti_center_logo img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.pti_info {
+    padding-left: 20px;
+    vertical-align: center;
+    font-size: 18px;
+}
+
+
+/* Application title */
+
+.application_title {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+.application_date {
+    text-align: right;
+}
+
+
+/* Data table */
+
+.data_table {
+    margin: 20px 0;
+    width: 100%;
+    border-top: 1px solid black;
+}
+
+.data_title {
+    box-sizing: border-box;
+    width: 300px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px 10px 5px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.data_value {
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    padding: 10px 10px 5px;
+    text-align: left;
+    font-size: 15px;
+}
+
+
+/* About application */
+
+.about_application {
+    margin: 20px 0;
+}
+
+.about_application_title {
+    text-align: left;
+    font-size: 18px;
+}
+
+.about_application_text {
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+
+/* Rules */
+
+.rules {
+    margin: 20px 0;
+}
+
+.rules_title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.rules_text {
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+
+/* Signature */
+
+.signature {
+    margin-top: 50px;
+}
+
+.agreement_text {
+    font-size: 15px;
+}
+
+.signature_place_container {
+    margin: 20px 0;
+    width: 100%;
+}
+
+.signature_title {
+    width: 300px;
+    font-size: 13px;
+}
+
+.signature_place {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 10px;
+}
+
+.signature_date {
+    margin-top: 50px;
+    text-align: right;
+    font-size: 15px;
+}
+
+.signature_date_place {
+    text-align: center;
+    font-size: 10px;
+}
