@@ -27,7 +27,9 @@ td {
     width: 800px;
 }
 
-.owner_name_field_title {}
+.owner_name_field_title {
+    width: ;
+}
 
 .data_value {
     font-weight: 800;
