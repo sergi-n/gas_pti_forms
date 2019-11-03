@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/bpg_arial_2009.ttf');
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial';
+    font-size: 12px;
+}
+
+table,
+th,
+td {
+    border-spacing: 0;
+    padding: 0;
+}
+
+.pti_application {
+    margin: auto;
+    width: 800px;
+}
+
+.first_data_table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 800px;
+}
+
+.owner_name_field_title {}
+
+.data_value {
+    font-weight: 800;
+}
+
+.first_data_table td {
+    /* width: 160px; */
+    border: 1px solid black;
+    padding: 5px 0 5px 5px;
+    text-align: left;
+    vertical-align: center;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+.second_data_table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 800px;
+}
+
+.second_data_table th,
+td {
+    /* width: 160px; */
+    border: 1px solid black;
+    border-left: none;
+    padding: 5px 0 5px 5px;
+    text-align: left;
+    vertical-align: center;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+.second_data_table .checkbox_container {
+    border-right: none;
+}
