@@ -29,12 +29,12 @@ td {
     width: 100%;
 }
 
-.inspection_types td:first-child {
-    width: 200px;
+.inspection_types td {
+    width: 400px;
 }
 
-.inspection_types input[type=checkbox] {
-    margin-left: 0;
+.inspection_types tr td:last-child {
+    text-align: right;
 }
 
 
@@ -55,6 +55,10 @@ td {
     vertical-align: center;
 }
 
+.first_data_table tr:last-child .data_value {
+    font-style: italic;
+}
+
 .data_value {
     font-weight: 800;
 }
@@ -69,17 +73,38 @@ td {
     width: 100%;
 }
 
-.second_data_table th,
 .second_data_table td {
     border: 1px solid black;
-    border-left: none;
+    border-right: none;
     padding: 5px 0 5px 5px;
     text-align: left;
     vertical-align: center;
 }
 
 .second_data_table .checkbox_container {
-    border-right: none;
+    width: 25px;
+    border-left: none;
+}
+
+.second_data_table .empty {
+    background-image: url('../images/empty.svg');
+    background-size: 15px 15px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.second_data_table .valid {
+    background-image: url('../images/valid.svg');
+    background-size: 15px 15px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.second_data_table .invalid {
+    background-image: url('../images/invalid.svg');
+    background-size: 15px 15px;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 
@@ -88,6 +113,7 @@ td {
 .results_table {
     margin: 10px 0 10px 0;
     width: 100%;
+    font-weight: 800;
 }
 
 .results_table th {
