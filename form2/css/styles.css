@@ -21,48 +21,143 @@ td {
     width: 800px;
 }
 
-.first_data_table {
-    border: 1px solid black;
-    border-collapse: collapse;
-    width: 800px;
+
+/* Inspection type */
+
+.inspection_types {
+    margin: 10px 0 10px 0;
+    width: 100%;
 }
 
-.owner_name_field_title {
-    width: ;
+.inspection_types td:first-child {
+    width: 200px;
+}
+
+.inspection_types input[type=checkbox] {
+    margin-left: 0;
+}
+
+
+/* First data table */
+
+.first_data_table {
+    margin: 10px 0 10px 0;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.first_data_table td {
+    border: 1px solid black;
+    width: 267px;
+    padding: 5px 0 5px 5px;
+    text-align: left;
+    vertical-align: center;
 }
 
 .data_value {
     font-weight: 800;
 }
 
-.first_data_table td {
-    /* width: 160px; */
-    border: 1px solid black;
-    padding: 5px 0 5px 5px;
-    text-align: left;
-    vertical-align: center;
-    border-collapse: collapse;
-    overflow: hidden;
-}
+
+/* Second data table */
 
 .second_data_table {
+    margin: 10px 0 10px 0;
     border: 1px solid black;
     border-collapse: collapse;
-    width: 800px;
+    width: 100%;
 }
 
 .second_data_table th,
-td {
-    /* width: 160px; */
+.second_data_table td {
     border: 1px solid black;
     border-left: none;
     padding: 5px 0 5px 5px;
     text-align: left;
     vertical-align: center;
-    border-collapse: collapse;
-    overflow: hidden;
 }
 
 .second_data_table .checkbox_container {
     border-right: none;
+}
+
+
+/* Results table */
+
+.results_table {
+    margin: 10px 0 10px 0;
+    width: 100%;
+}
+
+.results_table th {
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.results_table td {
+    width: 225px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+
+/* Inspector table */
+
+.inspector {
+    margin: 30px 0 10px 0;
+    width: 100%;
+}
+
+.inspector th {
+    text-align: left;
+    vertical-align: middle;
+}
+
+.inspector td {
+    width: 225px;
+    text-align: center;
+}
+
+.inspector hr {
+    border: none;
+    border-top: 1px solid black;
+}
+
+
+/* Date */
+
+.date {
+    margin: 10px 0 10px 0;
+    width: 100%;
+}
+
+.date th {
+    width: 350px;
+    text-align: left;
+}
+
+.date td {
+    text-align: right;
+}
+
+
+/* Signature */
+
+.signature {
+    margin: 30px 0 10px 0;
+    width: 100%;
+}
+
+.signature th {
+    text-align: left;
+}
+
+.signature td {
+    width: 450px;
+}
+
+.signature hr {
+    border: none;
+    border-top: 1px solid black;
 }
