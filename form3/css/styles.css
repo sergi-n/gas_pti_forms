@@ -6,7 +6,7 @@
 body {
     margin: 0;
     font-family: 'Arial';
-    font-size: 12px;
+    font-size: 15px;
 }
 
 table,
@@ -16,226 +16,130 @@ td {
     padding: 0;
 }
 
+hr {
+    border: none;
+    border-top: 1px solid black;
+}
+
+.header {
+    margin: 50px 0;
+    width: 100%;
+}
+
+.pti_center_info_container {
+    margin: 0 30px 0 0;
+    float: right;
+    width: 90%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.pti_center_info_container td {
+    border: 1px solid black;
+}
+
+.pti_center_info {
+    text-align: center;
+}
+
+.pti_center_info .pti_center_logo {
+    width: 100px;
+    text-align: center;
+}
+
+.pti_center_logo img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.certificate {
+    width: 153px;
+}
+
+.certificate img {
+    display: block;
+}
+
 .air_tank_certificate {
     margin: auto;
     width: 800px;
 }
 
-
-/* Certificate title */
-
-.certificate_title {
+.certificate_title,
+.title {
     text-align: center;
     font-size: 20px;
+    font-weight: 800;
 }
 
-
-/* PTI info, Document title and Certificate */
-
-.document_header {
-    margin: 10px 0;
-    width: 100%;
-    text-align: right;
-    background-image: url('../images/sertificate.png');
-    background-position: right top;
-    background-repeat: no-repeat;
-}
-
-.pti_info_container {
-    margin: 0 200px 0 0;
-    border: 1px solid black;
-    border-collapse: collapse;
-    float: right;
-}
-
-.pti_info_container td {
-    border: 1px solid black;
-}
-
-.pti_logo img {
-    display: block;
-    margin: 5px;
-    max-width: 100px;
-    max-height: 100px;
-}
-
-.pti_info {
-    padding: 5px;
-    text-align: center;
-}
-
-.document_title_container {
-    padding: 0 200px 0 0;
-}
-
-
-/* Inspection type */
-
-.inspection_types {
-    margin: 10px 0 10px 0;
-    width: 100%;
-}
-
-.inspection_types td {
-    width: 400px;
-}
-
-.inspection_types tr td:last-child {
-    text-align: right;
-}
-
-
-/* First data table */
-
-.first_data_table {
-    margin: 10px 0 10px 0;
-    border: 1px solid black;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-.first_data_table td {
-    border: 1px solid black;
-    width: 267px;
-    padding: 5px 0 5px 5px;
-    text-align: left;
-    vertical-align: center;
-}
-
-.first_data_table tr:last-child .data_value {
+.title_italic,
+.inspection_date,
+.owner_name,
+.owner_id,
+.air_tank_type,
+.air_tank_id,
+.air_tank_validity_period,
+.invalidity_reason,
+.next_inspection_date,
+.inspector_name {
+    font-size: 20px;
+    font-weight: 800;
     font-style: italic;
 }
 
-.data_value {
-    font-weight: 800;
+.spacer {
+    padding-left: 143px;
 }
-
-
-/* Second data table */
-
-.second_data_table {
-    margin: 10px 0 10px 0;
-    border: 1px solid black;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-.second_data_table td {
-    border: 1px solid black;
-    border-right: none;
-    padding: 5px 0 5px 5px;
-    text-align: left;
-    vertical-align: center;
-}
-
-.second_data_table .checkbox_container {
-    width: 25px;
-    border-left: none;
-}
-
-.second_data_table .empty {
-    background-image: url('../images/empty.svg');
-    background-size: 15px 15px;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-.second_data_table .valid {
-    background-image: url('../images/valid.svg');
-    background-size: 15px 15px;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-.second_data_table .invalid {
-    background-image: url('../images/invalid.svg');
-    background-size: 15px 15px;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-
-/* Results table */
-
-.results_table {
-    margin: 10px 0 10px 0;
-    width: 100%;
-    font-weight: 800;
-}
-
-.results_table th {
-    text-align: left;
-    vertical-align: bottom;
-}
-
-.results_table td {
-    width: 225px;
-    text-align: center;
-    vertical-align: bottom;
-}
-
-
-/* Inspector table */
 
 .inspector {
-    margin: 30px 0 10px 0;
     width: 100%;
-}
-
-.inspector th {
-    text-align: left;
-    vertical-align: middle;
 }
 
 .inspector td {
-    width: 225px;
-    text-align: center;
+    width: 50%;
 }
 
-.inspector hr {
-    border: none;
-    border-top: 1px solid black;
-}
-
-
-/* Date */
-
-.date {
-    margin: 10px 0 10px 0;
-    width: 100%;
-}
-
-.date th {
-    width: 350px;
-    text-align: left;
-}
-
-.date td {
+.stamp_place {
     text-align: right;
 }
 
-
-/* Signature */
-
-.signature {
-    margin: 30px 0 10px 0;
+.signature_one {
+    margin: 20px 0 20px;
     width: 100%;
 }
 
-.signature th {
-    text-align: left;
+.signature_one td {
+    width: 50%;
 }
 
-.signature td {
-    width: 450px;
+.pti_results {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
-.signature hr {
-    border: none;
-    border-top: 1px solid black;
+.pti_results td {
+    border: 1px solid black;
+    padding: 5px 0;
+    text-align: center;
 }
 
-.notes {
-    margin: 30px 0 10px 0;
-    font-style: italic;
+.pti_result_value {
+    display: inline-block;
+    padding: 40px 0;
+    font-weight: 800;
+}
+
+.second_signature {
+    margin: 100px 0 20px;
+    width: 100%;
+}
+
+.second_signature td {
+    width: 25%;
+    padding: 0 0 0 10px;
+    text-align: center;
+    vertical-align: top;
 }

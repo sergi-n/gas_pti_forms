@@ -123,9 +123,23 @@ td {
 .second_data_table .checkbox_container {
     width: 25px;
     border-left: none;
+    font-size: 20px;
 }
 
-.second_data_table .empty {
+.second_data_table .empty:after {
+    content: '';
+}
+
+.second_data_table .valid:after {
+    content: '\2611';
+}
+
+.second_data_table .invalid:after {
+    content: '\2612';
+}
+
+
+/* .second_data_table .empty {
     background-image: url('../images/empty.svg');
     background-size: 15px 15px;
     background-position: center center;
@@ -144,7 +158,7 @@ td {
     background-size: 15px 15px;
     background-position: center center;
     background-repeat: no-repeat;
-}
+} */
 
 
 /* Results table */
